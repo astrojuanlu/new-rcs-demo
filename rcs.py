@@ -34,4 +34,5 @@ def compute_altitude():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8899)
+    import os
+    app.run(host="0.0.0.0", port=os.getenv("PORT", 8899))
