@@ -1,7 +1,7 @@
 from rcs import edm_altitude
 
 
-def check_altitude():
+def test_check_altitude():
     rda_range = 1
     pitch = 0
 
